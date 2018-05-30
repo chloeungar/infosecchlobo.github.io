@@ -3,7 +3,7 @@ layout: post
 title: "The obligatory '$WHOAMI?' and 'how did I end up in InfoSec?' post"
 date: 2018-05-01
 categories:
-  - Miscellaneous
+  - miscellaneous
 description:
 image: /assets/img/background_main_dark.png
 image-sm: /assets/img/background_main_dark.png
