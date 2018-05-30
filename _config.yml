@@ -1,0 +1,36 @@
+# Site settings
+email: chloeungar@gmail.com
+baseurl: ""
+paginate: 5
+paginate_path: "/blog/page-:num"
+google_analytics:
+
+# SEO settings
+title: Chlöbo's Infosec Blog
+description:
+url: ""
+twitter_username: InfosecChlobo
+default_img: /assets/img/chloe.png
+
+# Profile settings
+name: Chlöe Ungar
+profile_img: /assets/img/chloe.png
+profile: Hi! I'm Chlöe, a Computer Forensices and Security Student currently on placement year! This is my blog, used primarily to document all my ramblings and security related stuffs. Hope you enjoy!
+social:
+  twitter: https://twitter.com/InfosecChlobo/
+  github: https://github.com/chloeungar/
+  linkedin: https://www.linkedin.com/in/chloeu/
+  key: https://keybase.io/chlobo/
+  instagram: https://www.instagram.com/chloeu0802/
+
+# Build settings
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
